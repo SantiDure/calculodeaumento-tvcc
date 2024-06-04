@@ -19,8 +19,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     const diferencia = montoActual - montoOriginal;
     const diferenciaPorcentual = (diferencia / montoOriginal) * 100;
-
-    alert(`La diferencia porcentual es ${diferenciaPorcentual.toFixed(2)}%`);
+    Swal.fire({
+      title: "Listo!",
+      html: `La diferencia porcentual es <br> <strong>${diferenciaPorcentual.toFixed(
+        2
+      )}%</strong> `,
+      icon: "success",
+      confirmButtonText: "Cool",
+    });
   });
 
   // Manejador del segundo formulario
@@ -44,6 +50,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     const montoFinal = montoOriginal + montoOriginal * (porcentajeSumar / 100);
 
-    alert(`El monto final es ${montoFinal.toFixed()}`);
+    Swal.fire({
+      title: "Listo!",
+      html: `El monto final es <br> <strong>$${montoFinal.toFixed()}</strong> `,
+      icon: "success",
+      confirmButtonText: "Cool",
+    });
   });
 });

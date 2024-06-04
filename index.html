@@ -32,7 +32,10 @@
             <div>
                 <form id="form_montoFinal" class="form_montoFinal form_container">
                     <input class="input form-control" type="number" placeholder="Monto original" step="any">
-                    <input class="input form-control" type="number" placeholder="Porcentaje a sumar" step="any">
+                     <div class="input-group mb-3">
+                        <input class="input form-control" type="number" placeholder="Porcentaje a sumar" step="any" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">%</span>
+                      </div>
                     <button class="btn btn-primary" type="submit">Calcular monto final</button>
                 </form>
                 <br>
@@ -40,7 +43,7 @@
             </div>
     </div>
     </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="/app.js"></script>
 </body>

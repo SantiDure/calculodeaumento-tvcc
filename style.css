@@ -25,3 +25,8 @@ body{
 .input{
     margin: 10px;
 }
+
+.input_porcentual{
+display: flex;
+
+}
