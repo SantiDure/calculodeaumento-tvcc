@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   // Manejador del primer formulario
-  const formPorcentaje = document.querySelector(".form_porcentaje");
+  const formPorcentaje = document.querySelector("#form_porcentaje");
 
   formPorcentaje.addEventListener("submit", function (event) {
     event.preventDefault(); // Prevenir el envío del formulario
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 
   // Manejador del segundo formulario
-  const formMontoFinal = document.querySelector(".form_montoFinal");
+  const formMontoFinal = document.querySelector("#form_montoFinal");
 
   formMontoFinal.addEventListener("submit", function (event) {
     event.preventDefault(); // Prevenir el envío del formulario
