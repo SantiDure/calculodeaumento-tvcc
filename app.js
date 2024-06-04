@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     event.preventDefault(); // Prevenir el envío del formulario
 
     const montoOriginal = parseFloat(
-      formPorcentaje.querySelector('input[placeholder="monto original"]').value
+      formPorcentaje.querySelector('input[placeholder="Monto original"]').value
     );
     const montoActual = parseFloat(
-      formPorcentaje.querySelector('input[placeholder="monto actual"]').value
+      formPorcentaje.querySelector('input[placeholder="Monto actual"]').value
     );
 
     if (isNaN(montoOriginal) || isNaN(montoActual)) {
@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     event.preventDefault(); // Prevenir el envío del formulario
 
     const montoOriginal = parseFloat(
-      formMontoFinal.querySelector('input[placeholder="monto original"]').value
+      formMontoFinal.querySelector('input[placeholder="Monto original"]').value
     );
     const porcentajeSumar = parseFloat(
-      formMontoFinal.querySelector('input[placeholder="porcentaje a sumar"]')
+      formMontoFinal.querySelector('input[placeholder="Porcentaje a sumar"]')
         .value
     );
 
