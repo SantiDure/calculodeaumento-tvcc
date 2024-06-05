@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         2
       )}%</strong> `,
       icon: "success",
-      confirmButtonText: "Cool",
+      confirmButtonText: "Aceptar",
     });
   });
 
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       title: "Listo!",
       html: `El monto final es <br> <strong>$${montoFinal.toFixed()}</strong> `,
       icon: "success",
-      confirmButtonText: "Cool",
+      confirmButtonText: "Aceptar",
     });
   });
 });
