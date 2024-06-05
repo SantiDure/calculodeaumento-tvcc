@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       formMontoFinal.querySelector('input[placeholder="Monto original"]').value
     );
     const porcentajeSumar = parseFloat(
-      formMontoFinal.querySelector('input[placeholder="Porcentaje a sumar"]')
+      formMontoFinal.querySelector('input[placeholder="Porcentaje"]')
         .value
     );
 
